@@ -1,0 +1,16 @@
+html {
+  font-family: sans-serif;
+  line-height: 140%;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 40rem;
+  padding-bottom: 10rem;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 3rem 0 1rem 0;
+}
