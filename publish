@@ -1,2 +1,2 @@
 #!/bin/sh
-rsync  --archive --compress --force --delete --progress --exclude '.git' --exclude publish . kyle@kemitchell.com:/var/www/forms.kemitchell.com/
+rsync  --archive --compress --force --delete --progress --exclude '.git' --exclude publish --exclude node_modules . kyle@kemitchell.com:/var/www/forms.kemitchell.com/
